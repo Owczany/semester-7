@@ -1,0 +1,40 @@
+Komendy
+
+TASK 1
+ 1003  git clone https://github.com/Owczany/skills-introduction-to-github.git
+ 1004  cd skills-introduction-to-github
+ 1005  git switch -c my-first-branch
+ 1006  git push -u my-first-branch
+ 1007  git branch
+ 1008  git push -u my-first-branch
+ 1009  git push  my-first-branch
+ 1010  git push
+ 1011  git push -u origin my-first-branch
+ 1012  echo "Welcome to my GitHub profile" >> PROFILE.md
+ 1013  git add PROFILE.md
+ 1014  git commit -m "Add PROFILE.md"
+ 1015  git push
+(I have created pull request manually)
+ 1018  git switch main
+ 1019  git pull origin main
+ 1020  git fetch origin
+ 1021  git merge origin/my-first-branch
+ 1022  git push
+
+TASK 2
+(Manually created PR)
+
+ 1053  git branch
+ 1054  git pull 
+ 1055  git status
+ 1056  git merge origin/main
+ 1057  git add resume.md
+ 1058  git commit
+ 1059  git push
+ 1060  git branch -a
+ 1061  git switch main
+ 1062  git pull
+ 1063  git fetch origin
+ 1064  git merge origin/my-resume
+ 1065  git push
+ 1066  git branch -D my-resume
