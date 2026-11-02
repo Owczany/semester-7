@@ -15,12 +15,13 @@ def main():
                 elif matrix[i][j] == leader:
                     leader_positions.append((i, j))
         if len(leader_positions) < 3:
-            return leader - 1
+            print(leader - 1)
+            return
         # searching if it is possible to help with that operation
-        i1, j1 = leader_positions[0]
-        i2, j2 = leader_positions[1]
-        i3, j3 = leader_positions[2]
-
+        row_cords = {leader_positions[0][0], leader_positions[1][0]}
+        cols_cords = {leader_positions[0][1], leader_positions[1][1]}
+        print
+        return
         bi = -1
         bj = -1
         if i1 == i2 :
